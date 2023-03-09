@@ -12,7 +12,7 @@ N/A
 
 Click the start quiz button to start the quiz. You will be presented with timed questions and you will be penalized with every wrong answer. You can save your score and the end of the game.
 
-![Password Generator application screeshot](./Assets/images/screenshot.jpg)
+![Coding Quiz Challenge screeshot](./assets/images/screenshot.JPG)
     
 
 ## Credits
