@@ -1,0 +1,89 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #292929;
+    color: #fff;
+}
+
+h1 {
+    font-size: 250%;
+}
+
+h2 {
+    font-size: 200%;
+}
+
+p,
+button,
+label {
+    font-size: 150%;
+}
+
+#header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+
+#header a {
+    text-decoration: none;
+    color: blueviolet;
+    font-size: 150%;
+}
+
+#header a:hover {
+    opacity: 75%;
+}
+
+main {
+    padding-top: 50px;
+    text-align: center;
+    height: 100vh;
+}
+
+#question-page {
+    display: none;
+    padding: 0 20%;
+}
+
+.choices {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+button {
+    margin-bottom: 5px;
+    color: #fff;
+    background-color: #0080ff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+
+button:hover {
+    opacity: 75%;
+}
+
+#score-page {
+    display: none;
+    padding: 0 20%;
+    text-align: left;
+}
+
+#highScore-page {
+    display: none;
+    padding: 0 20%;
+}
+
+li {
+    color: black;
+    font-size: 150%;
+    margin-bottom: 5px;
+    background-color: #c7e1fc;
+    list-style-type: decimal;
+    opacity: 50%;
+    border-radius: 5px;
+}
